@@ -67,6 +67,7 @@ nav {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 24px;
     
 }
 
@@ -76,6 +77,7 @@ nav {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 43px;
    
 }
 
@@ -84,8 +86,4 @@ nav {
     height: 420px;
     flex-shrink: 0;
     
-}
-.hot-deal-container{
-    
-    /* margin: auto; */
 }
