@@ -16,8 +16,8 @@ body {
 
 /* header related style  */
 .header {
-    width: 1920px;
-    height: 850px;
+    /* width: 1920px;
+    height: 850px; */
     background: rgba(229, 84, 115, 0.10);
     background-image: url('../images/pngwing10.png');
     background-repeat: no-repeat;
@@ -113,8 +113,8 @@ nav {
     margin-top: 150px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    width: 1922px;
-    height: 620px;
+    /* width: 1922px;
+    height: 620px; */
     gap: 50px;
 }
 
@@ -185,8 +185,11 @@ nav {
 /* Get The Latest Deals styles */
 .deals-section {
     background-image: url('../images/ectangle9.png');
-    width: 1440px;
+    /* width: 1440px;
+    height: 449px; */
     height: 449px;
+    /* background-repeat: no-repeat; */
+    /* align-items: center; */
     border-radius: 8px;
     margin: 128px 240px;
 
@@ -234,7 +237,7 @@ nav {
     color: #FFF;
     font-weight: 700;
     background: #E55473;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 /* footer section styles */
@@ -242,8 +245,8 @@ nav {
 footer {
     text-align: center;
     background: #111010;
-    width: 1922px;
-    height: 449px;
+    /* width: auto; */
+    height: 449px; 
 }
 
 .footer-title {
@@ -272,4 +275,5 @@ footer {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 80px;
 }
