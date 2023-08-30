@@ -44,6 +44,65 @@ nav {
     line-height: 30px;
 }
 
+/* Our Featured Flowers section style  */
+.featured-flowers-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-flowers-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 240px;
+    gap: 15px;
+}
+
+.featured-flowers-a {
+    color: #272727;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-right: 60px;
+    
+}
+
+.featured-flowers-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.featured-flowers-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.featured-flowers-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+
+
 /* hot deal section style  */
 
 .hot-deal {
@@ -178,7 +237,7 @@ nav {
     margin-left: 15px;
 }
 
-/* footer sectio styles */
+/* footer section styles */
 
 footer {
     text-align: center;
@@ -205,7 +264,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-   /* margin-top: 25px; */
+    /* margin-top: 25px; */
 }
 
 .copy-right-title {
