@@ -148,6 +148,10 @@ nav {
 }
 
 /* instagram section style */
+.instagram-section{
+    margin: 30px 240px ;
+
+}
 
 .instagram-title {
 
@@ -156,6 +160,7 @@ nav {
     font-size: 40px;
     font-weight: 800;
     margin-top: 128px;
+   
 
 }
 
@@ -172,7 +177,8 @@ nav {
 .instagram-container {
     display: flex;
     justify-content: space-around;
-    margin: 48px 240px 128px;
+    margin: 128px 240px ;
+     gap: 5px;
 
 }
 
@@ -187,11 +193,12 @@ nav {
     background-image: url('../images/ectangle9.png');
     /* width: 1440px;
     height: 449px; */
-    height: 449px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
     /* align-items: center; */
     border-radius: 8px;
-    margin: 128px 240px;
+    margin: 30px 240px;
+    /* padding: 240px; */
 
 }
 
@@ -218,6 +225,8 @@ nav {
     text-align: center;
     text-decoration: none;
     padding: 50px 200px 121px 287px;
+    /* display: inline; */
+    
 }
 
 #deals-input {
