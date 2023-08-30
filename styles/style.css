@@ -63,12 +63,12 @@ nav {
     color: #E55473;
 }
 
-.hot-deal-section-title{
+.hot-deal-section-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
-    
+
 }
 
 .hot-deal-section-discription {
@@ -78,15 +78,102 @@ nav {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 43px;
-   
+
 }
 
 .hot-deal-img {
     width: 318px;
     height: 420px;
     flex-shrink: 0;
-    
+
 }
 
 /* instagram section style */
 
+.instagram-title {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 128px;
+
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 240px 128px;
+
+}
+
+#insta-img {
+    width: 342px;
+    height: 396px;
+
+}
+
+/* Get The Latest Deals styles */
+.deals-section {
+    background-image: url('../images/ectangle9.png');
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 128px 240px;
+
+}
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 80px;
+    
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    margin-top: 25px;
+}
+
+.deals-input-container {
+    text-align: center;
+    text-decoration: none;
+    padding: 50px 200px 121px 287px;
+}
+
+#deals-input {
+    align-items: center;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    background: #FFF;
+}
+
+#deals-subscribe {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    color: #FFF;
+    font-weight: 700;
+    background: #E55473;
+    margin-left: 15px;
+}
